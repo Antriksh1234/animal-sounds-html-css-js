@@ -1,0 +1,47 @@
+body {
+    background-color: #070952;
+}
+
+.app_head {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.row {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    width: 100%;
+
+    text-align: center;
+}
+
+.animal_card {
+    position: relative;
+    background-color: yellow;
+    border-radius: 50px;
+    height: 300px;
+    width: 18%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.animal_card:hover {
+    background-color: red;
+    color: white;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 300px;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    vertical-align: middle;
+}
